@@ -1,0 +1,161 @@
+QWidget {
+	background-color: #ffffff;
+}
+
+QFrame {
+	background-color: none;
+}
+
+QLabel {
+	border: none;
+	font-size: 18px;
+	font-family: Poppins;
+}
+
+QLabel#trackingLabel {
+	font-weight: bold;
+}
+
+QLabel#typeLabel {
+	font-size: 14px;
+}
+
+QLabel#ordersLabel, #salesLabel, #questionsLabel, #feedbacksLabel {
+	font-size: 13px;
+	color: #373737;
+}
+
+QPushButton {
+	color: #000000;
+	background-color: transparent;
+	border: none;
+	font-size: 15px;
+	font-family: Poppins;
+	font-weight: bold;
+}
+
+QPushButton#ordersButton, #feedbacksButton {
+	padding-right: 158px;
+}
+
+QPushButton#salesButton, #questionsButton {
+	padding-right: 148px;
+}
+
+QPushButton:checked {
+	border-radius: 0px;
+	background-color: #e0e0e0;
+}
+
+QPushButton#beginButton {
+	font-weight: normal;
+	background-color: #3564fc;
+	color: #ffffff;
+	border-radius: 10px;
+}
+
+QPushButton:pressed#beginButton {
+	background-color: #e0e0e0;
+}
+
+QTextEdit {
+	color: #000000;
+	background-color: transparent;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: Poppins;
+}
+
+QProgressBar {
+	border: 2px solid #000000;
+	border-radius: 8px;
+	background-color: transparent;
+}
+
+QProgressBar::chunk {
+	background-color: #3564fc;
+	border-radius: 5px;
+}
+
+/* DARK */
+
+QWidget {
+	background-color: #424242;
+}
+
+QFrame {
+	background-color: none;
+}
+
+QLabel {
+	border: none;
+	font-size: 18px;
+	font-family: Poppins;
+}
+
+QLabel#trackingLabel {
+	font-weight: bold;
+}
+
+QLabel#typeLabel {
+	font-size: 14px;
+}
+
+QLabel#ordersLabel, #salesLabel, #questionsLabel, #feedbacksLabel {
+	font-size: 13px;
+	color: #b5b5b5;
+}
+
+QPushButton {
+	color: #ffffff;
+	background-color: transparent;
+	border: none;
+	font-size: 15px;
+	font-family: Poppins;
+	font-weight: bold;
+}
+
+QPushButton#ordersButton, #feedbacksButton {
+	padding-right: 158px;
+}
+
+QPushButton#salesButton, #questionsButton {
+	padding-right: 148px;
+}
+
+QPushButton:checked {
+	border-radius: 0px;
+	background-color: #808080;
+}
+
+QPushButton#beginButton {
+	font-weight: normal;
+	background-color: #3564fc;
+	color: #ffffff;
+	border-radius: 10px;
+}
+
+QPushButton:pressed#beginButton {
+	background-color: #808080;
+}
+
+QTextEdit {
+	color: #ffffff;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: Poppins;
+}
+
+QProgressBar {
+	border: 2px solid #ffffff;
+	border-radius: 8px;
+	background-color: transparent;
+}
+
+QProgressBar::chunk {
+	background-color: #3564fc;
+	border-radius: 5px;
+}

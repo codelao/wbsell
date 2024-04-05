@@ -5,8 +5,11 @@
     Отслеживайте недавние заказы и продажи, неотвеченные отзывы и вопросы за 1 клик. 
 </p>
 
-### [Wiki](https://github.com/codelao/wbsell/wiki)
-
-- [О проекте](#о-проекте)
-- [Установка](#установка)
-- [Использование](#использование)
+### Running wbsell:
+```
+git clone https://github.com/codelao/wbsell
+```
+During the development stage, you can only run the program by using this command in the parent directory:
+```
+python3 -m wbsell
+```

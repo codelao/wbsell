@@ -1,0 +1,214 @@
+QMainWindow {
+	background-color: #ffffff;
+}
+
+QFrame {
+	border: none;
+}
+
+QFrame#frame {
+	border: 1px solid #e0e0e0;
+}
+
+QFrame#settingsFrame {
+	background-color: #e0e0e0;
+	border: 2px solid #878787;
+	border-radius: 10px;
+}
+
+QFrame#frame_3 {
+	border: 2px solid #ff0019;
+	border-radius: 15px;
+}
+
+QFrame#collapseFrame {
+	border: 2px solid #ff0019;
+	border-radius: 15px;
+}
+
+QLabel {
+	color: #000000;
+	border: none;
+	font-size: 20px;
+	font-family: Poppins;
+}
+
+QLabel#trackingLabel, #settingsLabel, #keyLabel, #themeLabel, #logsLabel, #dateLabel, #connectionLabel, #wrongkeyLabel {
+	font-size: 15px;
+}
+
+QLabel#connectionLabel, #wrongkeyLabel {
+	color: #ff0019;
+}
+
+QLabel#date {
+	color: #878787;
+	font-size: 18px;
+}
+
+QPushButton {
+	background-color: transparent;
+	border-radius: 10px;
+}
+
+QPushButton#notificationsButton, #settingsButton, #trackingButton {
+	border: 1px solid #000000;
+}
+
+QPushButton:pressed {
+	background-color: #e0e0e0;
+}
+
+QTextEdit {
+	background-color: transparent;
+	border: 2px solid #e0e0e0;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: Poppins;
+}
+
+QLineEdit {
+	background-color: transparent;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: Poppins;
+}
+
+QTabWidget {
+	font-size: 15px;
+	font-family: Poppins;
+	border: none;
+	background-color: transparent
+}
+
+QTabWidget::pane {
+	top: 17px;
+	border: 2px solid #e0e0e0;
+	border-radius: 10px;
+}
+
+QTabBar::tab {
+	width: 210px;
+	background-color: transparent;
+	color: #000000;
+	padding: 10px;
+	border-bottom: 2px solid #e0e0e0;
+}
+
+QTabBar::tab:selected {
+	border-bottom: 2px solid #000000;
+}
+
+QComboBox {
+	color: #000000;
+	background-color: #e0e0e0;
+}
+
+/* DARK */
+
+QMainWindow {
+	background-color: #424242;
+}
+
+QFrame {
+	border: none;
+}
+
+QFrame#frame {
+	border: 1px solid #808080;
+}
+
+QFrame#settingsFrame {
+	background-color: #808080;
+	border: 2px solid #b5b5b5;
+	border-radius: 10px;
+}
+
+QFrame#frame_3 {
+	border: 2px solid #ff0019;
+	border-radius: 15px;
+}
+
+QFrame#collapseFrame {
+	border: 2px solid #ff0019;
+	border-radius: 15px;
+}
+
+QLabel {
+	color: #ffffff;
+	border: none;
+	font-size: 20px;
+	font-family: Poppins;
+}
+
+QLabel#trackingLabel, #settingsLabel, #keyLabel, #themeLabel, #logsLabel, #dateLabel, #connectionLabel, #wrongkeyLabel {
+	font-size: 15px;
+}
+
+QLabel#connectionLabel, #wrongkeyLabel {
+	color: #ff0019;
+}
+
+QLabel#date {
+	color: #b5b5b5;
+	font-size: 18px;
+}
+
+QPushButton {
+	background-color: transparent;
+	border-radius: 10px;
+}
+
+QPushButton#notificationsButton, #settingsButton, #trackingButton {
+	border: 1px solid #ffffff;
+}
+
+QPushButton:pressed {
+	background-color: #808080;
+}
+
+QTextEdit {
+	background-color: transparent;
+	border: 2px solid #808080;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: Poppins;
+}
+
+QLineEdit {
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: Poppins;
+}
+
+QTabWidget {
+	font-size: 15px;
+	font-family: Poppins;
+	border: none;
+	background-color: transparent
+}
+
+QTabWidget::pane {
+	top: 17px;
+	border: 2px solid #808080;
+	border-radius: 10px;
+}
+
+QTabBar::tab {
+	width: 210px;
+	background-color: transparent;
+	color: #ffffff;
+	padding: 10px;
+	border-bottom: 2px solid #808080;
+}
+
+QTabBar::tab:selected {
+	border-bottom: 2px solid #ffffff;
+}
+
+QComboBox {
+	background-color: #808080;
+}

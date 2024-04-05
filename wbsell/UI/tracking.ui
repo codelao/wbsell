@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tracking</class>
+ <widget class="QWidget" name="Tracking">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>wbsell</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Resources/images/logo.png</normaloff>../Resources/images/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QLabel" name="trackingLabel">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>5</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Отслеживание</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="typeLabel">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выберите тип отслеживания:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ordersButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>351</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Заказы</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resources/images/orders_image.png</normaloff>../Resources/images/orders_image.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="salesButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>160</y>
+     <width>351</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Продажи</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resources/images/sales_image.png</normaloff>../Resources/images/sales_image.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="questionsButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>240</y>
+     <width>351</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Вопросы</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resources/images/questions_image.png</normaloff>../Resources/images/questions_image.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="feedbacksButton">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>320</y>
+     <width>351</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Отзывы</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resources/images/feedbacks_image.png</normaloff>../Resources/images/feedbacks_image.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>100</width>
+     <height>100</height>
+    </size>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="ordersLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>130</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>За сегодня</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="salesLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>215</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>За сегодня</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="questionsLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>295</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Последние 10 неотвеченных</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="feedbacksLabel">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>369</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Последние 10 неотвеченных</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="beginButton">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>440</y>
+     <width>113</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Начать</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="output">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>477</y>
+     <width>321</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="loadingLabel">
+   <property name="geometry">
+    <rect>
+     <x>139</x>
+     <y>645</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
